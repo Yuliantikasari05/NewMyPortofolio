@@ -3,12 +3,14 @@ import { Hero } from "./components/Hero"
 import { About } from "./components/About"
 import { Skills } from "./components/Skills"
 import { Projects } from "./components/Projects"
+import { Organization } from "./components/Organization"
 import { Contact } from "./components/Contact"
 import { Navigation } from "./components/Navigation"
 import ProjectDetail1 from "./pages/ProjectDetail1"
 import ProjectDetail2 from "./pages/ProjectDetail2"
 import ProjectDetail3 from "./pages/ProjectDetail3"
 import ProjectDetail4 from "./pages/ProjectDetail4"
+import ProjectDetail5 from "./pages/ProjectDetail5"
 import "./App.css"
 
 function App() {
@@ -26,6 +28,7 @@ function App() {
                 <About />
                 <Skills />
                 <Projects />
+                <Organization />
                 <Contact />
               </>
             }
@@ -36,6 +39,7 @@ function App() {
           <Route path="/project/2" element={<ProjectDetail2 />} />
           <Route path="/project/3" element={<ProjectDetail3 />} />
           <Route path="/project/4" element={<ProjectDetail4 />} />
+          <Route path="/project/5" element={<ProjectDetail5 />} />
         </Routes>
       </main>
     </Router>

@@ -18,7 +18,7 @@ export function Contact() {
       icon: <MapPin className="w-6 h-6 text-yellow-500" />,
       title: "Location",
       value: "Daerah Istimewa Yogyakarta, Jawa Tengah",
-      link: "https://share.google/R15bLDzMXJMg7nvJe",
+      link: "https://share.google/SItcS3YRn2jJP5mzT",
     },
   ]
 

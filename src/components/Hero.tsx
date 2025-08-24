@@ -68,8 +68,8 @@ export function Hero(): React.ReactElement {
         </div>
 
         <p className="text-gray-600 mb-8 max-w-xl text-lg leading-relaxed">
-        I am a UI/UX Designer & System Analyst who combines design creativity with system analysis to create functional, 
-        aesthetic, and user-centric digital solutions.
+        I am a UI/UX Designer, Systems Analyst, and Programmer who combines design creativity, systems analysis, and programming skills
+        to create functional, aesthetically pleasing, efficient, and user-centric digital solutions.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-10">
