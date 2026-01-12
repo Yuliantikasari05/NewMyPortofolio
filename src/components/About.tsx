@@ -131,12 +131,10 @@ export function About(): React.ReactElement {
             
             <div className="space-y-4">
               <p className="text-gray-600 leading-relaxed text-lg">
-              Starting with designing prototypes and mockups for SME websites at the beginning of the semester, I discovered my passion for UI/UX Design. 
-              However, my journey didn’t stop there I also honed my skills as a System Analyst, from analyzing user needs, designing appropriate systems, to finding solutions to various problems.
-              </p>
-              <p className="text-gray-600 leading-relaxed text-lg">
-              From developing the HappyCare health tourism platform for the community in Yogyakarta to collaborating with the Master's Program in Midwifery to create a digital e-partograph, 
-              I have combined design aesthetics with precise analysis to produce functional, user-friendly digital solutions that have a real impact on health.
+              I am an Information Technology student specializing in system development and Artificial Intelligence integration for real-world solutions.
+              With experience building Laravel-based applications in the healthcare sector and leading cross-disciplinary projects, I am skilled in conducting user needs analysis through to technical implementation.
+              Currently, I am proficient in AI automation using n8n to design intelligent workflows and build AI career analysis models through AI API integration.
+              With a combination of technical skills, leadership, and a problem-solving mindset, I am committed to creating impactful and sustainable digital solutions.
               </p>
             </div>
 
@@ -144,7 +142,7 @@ export function About(): React.ReactElement {
             <div className="mt-8">
               <h4 className="text-lg font-semibold text-gray-900 mb-4">Tecnology</h4>
               <div className="flex flex-wrap gap-3">
-                {["React", "PHP", "Tailwind", "HTML", "CSS", "MySQL"].map((tech, index) => (
+                {["Laravel", "PHP", "HTML", "Javascript", "CSS", "MySQL", "N8N", "Figma"].map((tech, index) => (
                   <span
                     key={tech}
                     className="group px-4 py-2 bg-white border-2 border-yellow-200 text-gray-700 rounded-full text-sm font-medium transition-all duration-300 hover:border-yellow-400 hover:bg-gradient-to-r hover:from-yellow-400 hover:to-orange-400 hover:text-white hover:scale-105 hover:shadow-lg cursor-pointer animate-bounce"

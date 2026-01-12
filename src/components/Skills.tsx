@@ -9,23 +9,23 @@ export function Skills() {
     frontend: {
       title: "Hard Skills",
       skills: [
-        { name: "Figma Tools", level: 95 },
-        { name: "Prototyping", level: 90 },
+        { name: "Figma Tools", level: 80 },
+        { name: "N8N Tools", level: 85 },
         { name: "Wireframing", level: 88 },
-        { name: "PHP", level: 92 },
-        { name: "Laravel", level: 94 },
-        { name: "HTML/CSS", level: 96 },
+        { name: "PHP", level: 87 },
+        { name: "Laravel", level: 85 },
+        { name: "HTML/CSS", level: 90 },
       ],
     },
     backend: {
       title: "Soft Skills",
       skills: [
-        { name: "Communication", level: 87 },
-        { name: "TeamWork", level: 82 },
-        { name: "Adaptability", level: 85 },
-        { name: "Accuracy", level: 80 },
+        { name: "Communication", level: 90 },
+        { name: "TeamWork", level: 87 },
+        { name: "Adaptability", level: 90 },
+        { name: "Accuracy", level: 85 },
         { name: "Analytical", level: 88 },
-        { name: "Willing to Learn", level: 90 },
+        { name: "Willing to Learn", level: 95 },
       ],
     },
   }
@@ -155,7 +155,7 @@ export function Skills() {
                       ))}
                     </div>
                     <span className="font-medium">
-                      {skill.level >= 90 ? 'Expert' : skill.level >= 70 ? 'Advanced' : skill.level >= 50 ? 'Intermediate' : 'Beginner'}
+                      {skill.level >= 95 ? 'Expert' : skill.level >= 70 ? 'Advanced' : skill.level >= 50 ? 'Intermediate' : 'Beginner'}
                     </span>
                   </div>
                 </div>
