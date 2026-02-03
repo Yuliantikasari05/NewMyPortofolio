@@ -75,7 +75,7 @@ export function Hero(): React.ReactElement {
         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start mb-10">
           {/* Tombol Download CV */}
           <a
-            href="/my cv.pdf"
+            href="/CV Yuli.pdf"
             download="my cv.pdf"
             className="group bg-gradient-to-r from-yellow-500 to-orange-500 hover:from-yellow-600 hover:to-orange-600 text-white px-8 py-4 rounded-lg font-semibold text-center shadow-lg hover:shadow-xl transform hover:-translate-y-1 transition-all duration-300 flex items-center justify-center"
           >
